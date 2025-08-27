@@ -1,0 +1,76 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-2xl font-medium transition-all duration-200 
+           shadow-component hover:shadow-hover focus:outline-none focus:ring-2 
+           focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-500 text-white hover:bg-primary-600 dark:bg-primary-600 
+           dark:hover:bg-primary-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-gray-700 border border-gray-200 hover:bg-gray-50 
+           dark:bg-gray-800 dark:border-gray-700 dark:text-gray-200 
+           dark:hover:bg-gray-700;
+  }
+
+  .btn-accent {
+    @apply bg-accent-500 text-white hover:bg-accent-600 dark:bg-accent-600 
+           dark:hover:bg-accent-700;
+  }
+
+  .component-item {
+    @apply bg-white dark:bg-gray-800 p-3 rounded-2xl shadow-component 
+           hover:shadow-hover transition-all duration-200 cursor-move 
+           border border-gray-100 dark:border-gray-700;
+  }
+
+  .circuit-canvas {
+    @apply bg-white dark:bg-gray-800 rounded-2xl shadow-component p-4 
+           border border-gray-100 dark:border-gray-700;
+  }
+
+  .properties-panel {
+    @apply bg-gray-50 dark:bg-gray-800 p-4 rounded-2xl shadow-component 
+           border border-gray-100 dark:border-gray-700;
+  }
+
+  .simulation-panel {
+    @apply bg-gray-50 dark:bg-gray-800 p-4 rounded-2xl shadow-component 
+           border border-gray-100 dark:border-gray-700;
+  }
+
+  .input {
+    @apply px-4 py-2 rounded-2xl border border-gray-200 dark:border-gray-700 
+           dark:bg-gray-800 dark:text-gray-100 focus:ring-2 focus:ring-primary-500 
+           focus:border-transparent outline-none transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-2xl shadow-component p-6 
+           border border-gray-100 dark:border-gray-700 transition-all duration-200;
+  }
+}

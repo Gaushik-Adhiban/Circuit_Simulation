@@ -1,0 +1,15 @@
+{
+  "short_name": "Circuit Gen",
+  "name": "Circuit Gen - Modern Circuit Design",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "512x512 192x192 64x64 32x32 24x24 16x16",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#3B82F6",
+  "background_color": "#ffffff"
+}
