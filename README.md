@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CircuitGen
 
 A TinkerCAD-like circuit design and simulation tool built with React frontend and FastAPI backend.
@@ -164,3 +165,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Inspired by TinkerCAD's circuit design interface
 - Built with modern web technologies for performance and scalability
+=======
+# Circuit_Simulation
+>>>>>>> c2d7ed9e6a69bd4dac00ca465452181130508748
